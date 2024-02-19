@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(141, 62, 141);
+}
+.Card{
+    width: 550px;
+    height: 450px;
+    background-color: rgba(124, 51, 124, 0.811);
+    margin-top: 60px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+}
+.Text{
+    font-size: 15px;
+    padding-right: 37%;
+    padding-top: 20px;
+    color: rgba(245, 245, 245, 0.63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.note > p{
+    font-size: 15px;
+    padding-right: 6%;
+    align-items: end;
+    padding-top: 15px;
+    color: whitesmoke;
+}
+.note-two > p{
+    font-size: 15px;
+    padding-right: 29px;
+    color: whitesmoke;
+}
+.note-three > p{
+    font-size: 15px;
+    padding-right: 59px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    
+}
+
+.read{
+    width: 25%;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rgba(68, 123, 232, 0.639);
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 10px;
+}

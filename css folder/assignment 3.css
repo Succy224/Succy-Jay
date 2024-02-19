@@ -1,0 +1,129 @@
+*{
+    margin: 2px;
+    padding: 10px;
+   box-sizing: border-box;
+ 
+}
+
+.container{
+    background-color:white;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    font-size: 40px;
+    color:black;
+    font-weight: bold;
+    min-height: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.Adam{
+    background-color:rgb(229, 105, 126);
+    color:white;
+    line-height: 2;
+    margin-bottom: 30;
+    border-radius:15px;
+    padding: 35px;
+    display: flex;
+    width: 1000px;
+
+}
+.add{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.pay{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+ .Visa{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 26px;
+        border-radius:30px;
+        font-weight: 250px;
+        margin-bottom: 40px;
+        bottom: 12px; 
+        border-style: groove;
+        width: 1000px;
+    }
+    
+ .pal{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 26px;
+    border-radius: 30px;
+    font-weight: 250px;
+    margin-bottom: 40px;
+    border-style: groove; 
+    width: 1000px;
+}
+.master{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 26px;
+    border-radius: 30px;
+    font-weight: 250px;
+    margin-bottom: 50px;
+    border-style:groove;
+    width: 1000px;
+}
+.Shop{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+.Ship{                                             
+    display: grid;
+    justify-content: space-between;
+    background-color: white;
+    padding: 26px;
+    border-radius: 5px;
+    font-weight: 300px;
+    margin-bottom: 10px;
+    list-style: none;
+    list-style: 2px;
+    
+}
+
+.doll{
+    display: grid;
+     list-style: none;
+     list-style: 2px;
+}
+
+
+.tols{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    width: 930px;
+    border-top: 20px;
+}
+.bords{
+    border-bottom: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color:rgb(236, 94, 118);
+    padding: 26px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-weight: 300px;
+    bottom: 50px;
+    width: 930px;
+}
+
+  

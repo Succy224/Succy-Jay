@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    width: 100%;
+    height: 200vh;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 5px; 
+    position: relative;
+    z-index: 1;
+}
+.card-one, .card-two, .card-three{
+    width: 50%;
+    height: 5%;
+    background-color: rgba(35, 179, 179, 0.705);
+}
+.card-two{
+    background-color: azure;
+    position: fixed;
+    top: 10px;
+}
+.card-three{
+    background-color: rgb(60, 203, 180);
+}

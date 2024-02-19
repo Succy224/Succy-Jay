@@ -1,0 +1,78 @@
+.container{
+    .checkout{
+        display:flex;   
+        justify-items: center;
+        font-weight: bold;
+        color: pink;
+    
+    
+    }
+    .Adam{
+        background-color:pink;
+        color: pink;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        border-radius:15px;
+        padding: 15px;
+    }
+    .pay{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .shop{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .use{
+        display;
+        justify-content: space-between;
+        color: rgb(169, 168, 168);
+        background-color: white;
+    }
+    
+    
+    .Ship{
+        list-style: none;
+        line-height: 1.5;
+    }
+    
+    .Dolls{
+       display: grid;
+        list-style: none;
+        line-height: 1.5;
+    }
+    
+    .Visa{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 15px;
+        border-radius:15px;
+        margin-bottom: 15px;
+    }
+    
+    .Pal{display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 15px;
+        border-radius:15px;
+        margin-bottom: 15px;
+    }
+    
+    .Card{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 15px;
+        border-radius:15px;
+        margin-bottom: 15px;
+    }
+    
+    .Total{
+        color: black;
+    }
+}

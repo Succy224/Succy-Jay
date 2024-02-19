@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-wrap{
+    width: 100%;
+    height: 300px;
+    border: 1px solid  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    width: 10%;
+    height: 20%;
+    background-image: ;
+    background-repeat: non-repeat;
+    background-position: center;
+    background-size: contain;
+    animation-name: bubbles;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    transform: translateY(400%);
+}
+#b1{
+    animation-delay: 1s;
+}
+#b2{
+    animation-delay: 1s;
+}
+#b4{
+    animation-delay: 1s;
+}
+#b5{
+    animation-delay: 1s;
+}
+#b6{
+    animation-delay: 1s;
+}
+#b7{
+    animation-delay: 1s;
+}
+#b8{
+    animation-delay: 1s;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.card-two{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}    
+.card-three{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.card-four{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.card-two{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: red;
+    animation-name: shakeup;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes solidButton{
+    from{transform: translateY(100%);}
+    to{transform: translateY(0);}
+}
+ 
+@keyframes color{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: yellowgreen;
+    }
+    75%{
+        background-color: slateblue;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+@keyframes shake{
+    0%{
+      transform: translateX(0);  
+    }
+    25%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(40px);
+    }
+    75%{
+        transform: translateX(60px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+

@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:  rgb(43, 10, 58);
+}
+.Card{
+    width: 450px;
+    height: 530px;
+    background-color: rgb(38, 12, 50);
+    margin-top: 60px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 5px;
+    border: none;
+}
+.read{
+    width: 13%;
+    height: 30px;
+    margin-top: 31px;
+    margin-right: 70%;
+    background-color: rgba(199, 199, 56, 0.82);
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img-holder{
+    width: 35%;
+    height: 30%;
+    margin-right: 30px;
+    border: 2px solid rgb(48, 61, 156);
+    background-color: white;
+    border-radius: 100px;
+    background-image: url(images/Tom\ Holland.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.Text{
+        font-size: 15px;
+        padding-right: 9%;
+        padding-top: 20px;
+        font-size: 14px;
+        color: rgba(245, 245, 245, 0.605);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        align-items: center;
+}
+.Text-two{
+    font-size: 15px;
+    padding-right: 9%;
+    padding-top: 5px;
+    color: rgba(245, 245, 245, 0.598);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.Text-three{
+    font-size: 15px;
+    padding-right: 9%;
+    padding-top: 9px;
+    color: rgba(245, 245, 245, 0.39);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.Text-four{
+    font-size: 15px;
+    padding-right: 9%;
+    padding-top: 1px;
+    color: rgba(245, 245, 245, 0.354);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.one{
+    width: 25%;
+    height: 33px;
+    background-color: rgb(58, 189, 225);
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.619);
+}
+.two{
+    width: 25%;
+    height: 34px;
+    border: 1.5px solid rgb(28, 138, 175);
+    margin-right: 40px;
+    padding-top: 5px;
+    border-radius: 3px;
+    color:  rgba(44, 191, 214, 0.733);
+    background-color: transparent;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.card-two{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(31, 11, 41);
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+.Text-note{
+    font-size: 15px;
+    padding-right: 82%;
+    padding-top: 15px;
+    font-size: 12px;
+    color: rgba(245, 245, 245, 0.605);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.header-one{
+        width: 15%;
+        height: 33px;
+        background-color: rgb(34, 14, 44);
+        border: 1px solid rgba(128, 128, 128, 0.374);
+        margin-top: 10px;
+        margin-right: 1px;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.721);
+}
+.header-two{
+    width: 40%;
+    height: 33px;
+    background-color: rgb(34, 14, 44);
+    border: 1px solid rgba(128, 128, 128, 0.374);
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.721);
+}
+.header-three{
+    width: 17%;
+    height: 30px;
+    background-color: rgb(34, 14, 44);
+    border: 1px solid rgba(128, 128, 128, 0.374);
+    margin-top: 5px;
+    margin-right: 58px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.721);
+}
+.header-four{
+    width: 10%;
+    height: 33px;
+    background-color: rgb(34, 14, 44);
+    border: 1px solid rgba(128, 128, 128, 0.374);
+    margin-top: 10px;
+    margin-right: 6px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.721);
+}
+.header-five{
+    width: 17%;
+    height: 30px;
+    background-color: rgb(34, 14, 44);
+    border: 1px solid rgba(128, 128, 128, 0.374);
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.721);
+}
+.header-six{
+    width: 13%;
+    height: 30px;
+    background-color: rgb(34, 14, 44);
+    border: 1px solid rgba(128, 128, 128, 0.374);
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.721);
+}
+.header-seven{
+    width: 15%;
+    height: 30px;
+    background-color: rgb(34, 14, 44);
+    border: 1px solid rgba(128, 128, 128, 0.374);
+    margin-top: 5px;
+    margin-right: 110px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.721);
+}
+
+
